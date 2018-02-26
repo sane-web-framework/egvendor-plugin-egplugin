@@ -7,18 +7,15 @@ class EgPlugin extends \Swef\Bespoke\Plugin {
 
 /*
     PROPERTIES
-/*
-
+*/
 
 
 
 /*
     EVENT HANDLER SECTION
-/*
+*/
 
     public function __construct ($page) {
-        // Get definitions
-        require_once SWEF_CONFIG_PATH.'/EgVendor/EgPlugin.define.php';
         // Always construct the base class - PHP does not do this implicitly
         parent::__construct ($page,'\EgVendor\EgPlugin');
     }
@@ -79,11 +76,11 @@ class EgPlugin extends \Swef\Bespoke\Plugin {
 
 /*
     DASHBOARD SECTION
-/*
+*/
 
 
     public function _dashboard ( ) {
-        require_once egplugin_file_dash;
+        require_once egvendor_egplugin_file_dash;
     }
 
     public function _info ( ) {
