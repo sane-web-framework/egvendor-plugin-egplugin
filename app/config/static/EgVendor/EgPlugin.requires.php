@@ -1,11 +1,11 @@
 <?php
 
 // SYSTEM CONSTANTS
-require_once SWEF_CONFIG_PATH.'/static/EgVendor/EgPlugin.defines.php';
+require_once SWEF_DIR_CONFIG.'/static/EgVendor/EgPlugin.defines.php';
 
 
 // CONFIGURABLE CONSTANTS
-//require_once SWEF_CONFIG_PATH.'/user/EgVendor/EgPlugin.config.php';
+//require_once SWEF_DIR_CONFIG.'/user/EgVendor/EgPlugin.config.php';
 
 
 // PLUGINS

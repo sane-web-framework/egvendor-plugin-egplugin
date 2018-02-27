@@ -20,7 +20,7 @@ class EgPlugin extends \Swef\Bespoke\Plugin {
         parent::__construct ($page,'\EgVendor\EgPlugin');
     }
 
-    public function __destruct ($page) {
+    public function __destruct ( ) {
         // Always destruct the base class - PHP does not do this implicitly
         parent::__destruct ( );
     }
