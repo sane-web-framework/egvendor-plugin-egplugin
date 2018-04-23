@@ -28,6 +28,10 @@ class EgPlugin extends \Swef\Bespoke\Plugin {
     public function _on_pluginsSetAfter ( ) {
     }
 
+    public function _on_pageIdentifyBefore ( ) {
+        return SWEF_BOOL_TRUE;
+    }
+
     public function _on_pushBefore ( ) {
         return SWEF_BOOL_TRUE;
     }
